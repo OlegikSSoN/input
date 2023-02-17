@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="registration">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-6">
+            <div class="register w-100">
+              <div class="b-overlay-wrap position-relative">
+                <div class="register__title w-100 text-center mb-3">
+                  <h2>Шукаєте роботу чи няню?</h2>
+                </div>
+                <div class="register__search d-flex w-100 mb-3">
+                  <button
+                    type="button"
+                    class="btn btn btn-light w-50 btn-secondary active"
+                  >
+                    Шукаю роботу
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn btn-light w-50 btn-secondary"
+                  >
+                    Шукаю няню
+                  </button>
+                </div>
+                <div class="register__inputs w-100 d-flex flex-column mb-2">
+                  <div
+                    class="register__inputs-name d-flex justify-content-between"
+                  >
+                    <div class="form-input special-w mb-3">
+                      <input
+                        id="name"
+                        type="text"
+                        placeholder="Ім'я"
+                        value=""
+                        class="w-100"
+                      />
+                    </div>
+                    <div class="form-input special-w mb-3">
+                      <input
+                        id="lastname"
+                        type="text"
+                        placeholder="Прізвище"
+                        value=""
+                        class="w-100"
+                      />
+                    </div>
+                  </div>
+                  <div class="form-input mb-3">
+                    <div class="form-input position-relative">
+                      <input
+                        id="nickname"
+                        type="text"
+                        placeholder="Нікнейм"
+                        value=""
+                        class="w-100"
+                      />
+                    </div>
+                  </div>
+                  <div class="form-input mb-3 w-100 position-relative">
+                    <input
+                      id="email"
+                      type="email"
+                      placeholder="Електронна пошта"
+                      value=""
+                      class="w-100"
+                    />
+                  </div>
+                  <div class="form-input mt-3 mb-3 w-100">
+                    <input
+                      id="password"
+                      type="password"
+                      placeholder="Пароль"
+                      value=""
+                      class="w-100"
+                    />
+                  </div>
+                  <div class="form-input mb-3 w-100">
+                    <input
+                      id="password2"
+                      type="password"
+                      placeholder="Підтвердіть пароль"
+                      class="w-100"
+                    />
+                  </div>
+                </div>
+                <div class="register__agreement mb-3">
+                  <div class="checkbox-and-text">
+                    <label class="d-flex">
+                      <div
+                        class="b-form-checkbox mr-1 custom-control custom-checkbox"
+                      >
+                        <input
+                          type="checkbox"
+                          value="true"
+                          class="custom-control-input"
+                        />
+                        <label class="custom-control-label"></label>
+                      </div>
+                      <p class="text">
+                        Так, я розумію та погоджуюся з Умовами обслуговування,
+                        включаючи
+                        <a href="#">Угоду користувача</a>
+                        та
+                        <a href="#">Політику конфіденційності</a>
+                      </p>
+                    </label>
+                  </div>
+                </div>
+                <div class="mb-4">
+                  <button
+                    type="button"
+                    disabled="disabled"
+                    class="btn btn-primary w-100"
+                  >
+                    Зареєструватись
+                  </button>
+                </div>
+                <div class="register__login d-flex">
+                  <span>Вже зареєстровані?</span>
+                  <a href="#">Увійти</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
